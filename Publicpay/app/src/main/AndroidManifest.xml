@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jbk.publicpay">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".log_in1"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sign_in"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".register1"
+            android:label="@string/title_activity_register1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".register2"
+            android:label="@string/title_activity_register2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".main_activity"
+            android:label="@string/title_activity_main_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".payment"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".get"
+            android:label="@string/title_activity_get"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".get_password"
+            android:label="@string/title_activity_get_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".give"
+            android:label="@string/title_activity_give"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".give_password"
+            android:label="@string/title_activity_give_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".transactions"
+            android:label="@string/title_activity_transactions"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

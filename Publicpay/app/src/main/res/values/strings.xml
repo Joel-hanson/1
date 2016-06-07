@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Public pay</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in">sign_in</string>
+    <string name="title_activity_register1">register1</string>
+    <string name="title_activity_register2">register2</string>
+    <string name="title_activity_main_activity">main_activity</string>
+    <string name="title_activity_payment">payment</string>
+    <string name="title_activity_get">get</string>
+    <string name="title_activity_get_password">get_password</string>
+    <string name="title_activity_give">give</string>
+    <string name="title_activity_give_password">give_password</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_transactions">transactions</string>
+</resources>
